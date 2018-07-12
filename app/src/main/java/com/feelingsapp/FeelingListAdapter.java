@@ -31,7 +31,7 @@ public class FeelingListAdapter extends RecyclerView.Adapter<FeelingListAdapter.
 
     @Override
     public FeelingViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = inflater.inflate(R.layout.recycleview_history_feelings, parent, false);
+        View itemView = inflater.inflate(R.layout.element_history_feelings, parent, false);
         return new FeelingViewHolder(itemView);
     }
 

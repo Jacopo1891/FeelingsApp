@@ -44,11 +44,24 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="$PROJECT_DIR$/app/src/main/res/img/angry.png" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/sad.png" />
+                                      <entry key="generateRoundIcon" value="false" />
                                       <entry key="legacyIconShape" value="CIRCLE" />
-                                      <entry key="outputName" value="ic_angry" />
-                                      <entry key="showGrid" value="true" />
+                                      <entry key="outputName" value="ic_sad" />
                                       <entry key="webIconShape" value="CIRCLE" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="$USER_HOME$/Downloads/angry.png" />
+                                      <entry key="outputName" value="ic_angry" />
                                     </map>
                                   </option>
                                 </PersistentState>

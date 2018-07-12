@@ -31,7 +31,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/ic_sad" />
+        app:srcCompat="@mipmap/ic_sad"
+        />
 
     <ImageButton
         android:id="@+id/imageButtonHappy"
@@ -42,7 +43,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageButtonSad"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.48"
-        app:srcCompat="@mipmap/ic_happy" />
+        app:srcCompat="@mipmap/ic_happy"
+        />
 
     <ImageButton
         android:id="@+id/imageButtonAngry"
@@ -63,12 +65,13 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/floatingActionButton"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:id="@+id/histoyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_marginEnd="30dp"
         android:clickable="true"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_dialog_info" />

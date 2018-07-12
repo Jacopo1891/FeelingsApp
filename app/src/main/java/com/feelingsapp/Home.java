@@ -1,5 +1,7 @@
 package com.feelingsapp;
 
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +13,7 @@ public class Home extends AppCompatActivity {
     ImageButton buttonSad;
     ImageButton buttonHappy;
     ImageButton buttonAngry;
+    FloatingActionButton buttonHistory;
 
     FeelingRepository repository;
 
@@ -27,6 +30,7 @@ public class Home extends AppCompatActivity {
         buttonSad = findViewById(R.id.imageButtonSad);
         buttonHappy = findViewById(R.id.imageButtonHappy);
         buttonAngry = findViewById(R.id.imageButtonAngry);
+        buttonHistory = findViewById(R.id.histoyButton);
 
         buttonSad.setOnClickListener(new View.OnClickListener() {
 
@@ -61,5 +65,12 @@ public class Home extends AppCompatActivity {
                         "Are you angry?", Toast.LENGTH_SHORT).show();
             }
         });
+
+        buttonHistory.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                startActivity(new Intent(Home.this, History.class));
+            }
+        });
+
     }
 }
